@@ -66,4 +66,25 @@ dependencies {
 
     // Optional: If you want to support ImageCapture use cases
     implementation("androidx.camera:camera-extensions:$camerax_version")
+
+    // TensorFlow Lite dependencies
+    implementation("org.tensorflow:tensorflow-lite:2.5.0")
+    implementation("org.tensorflow:tensorflow-lite-support:0.1.0")
+
+    // TextToSpeech for speech output
+    implementation("androidx.core:core-ktx:1.8.0")
+
+    // For TextToSpeech
+    implementation("androidx.core:core-ktx:1.12.0")
+
+    // Jetpack Compose dependencies
+    implementation("androidx.compose.ui:ui:1.5.0")
+    implementation("androidx.compose.material3:material3:1.1.0")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.5.0")
+    implementation("androidx.activity:activity-compose:1.8.0")
+
+    // Other necessary dependencies
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
+    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("com.google.android.material:material:1.10.0")
 }
