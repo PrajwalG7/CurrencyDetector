@@ -1,6 +1,6 @@
-500 Rupees
-2000 Rupees
-20 Rupees
-10 Rupees
-100 Rupees
-50 Rupees
+This is fifty rupees.
+This is five hundred rupees.
+This is hundred rupees.
+This is ten rupees.
+This is thousand rupees.
+This is twenty rupees.

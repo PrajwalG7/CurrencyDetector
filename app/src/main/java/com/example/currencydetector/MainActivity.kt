@@ -46,7 +46,7 @@ class MainActivity : ComponentActivity() {
     private lateinit var textToSpeech: TextToSpeech
     private lateinit var outputDirectory: File
     // Define output buffer with the correct shape
-    private val outputBuffer = Array(1) { FloatArray(6) } // 5 to match model output
+    private val outputBuffer = Array(1) { FloatArray(6) } // 6 to match model output
 
     // State to hold the captured image
     private var capturedImageBitmap by mutableStateOf<Bitmap?>(null)
